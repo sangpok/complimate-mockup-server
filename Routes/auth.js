@@ -15,6 +15,7 @@ import { getCookieParams } from '../Utils/index.js';
 /** @param {jsonServer.JsonServerRouter} router */
 export const getAuthRoute = (router) => {
   router.post('/login', (req, res) => {
+    console.log(req.body.email);
     const user = findUser(req.body.email);
 
     if (!user) {

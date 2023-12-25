@@ -83,6 +83,13 @@
       "password": "test",
       "nickname": "푸른 능소니",
       "profileUrl": "5.webp"
+    },
+    {
+      "id": 12,
+      "email": "test9959@complimate.com",
+      "password": "test",
+      "nickname": "못생긴 살쾡이",
+      "profileUrl": "7.webp"
     }
   ],
   "posts": [
@@ -95,79 +102,260 @@
     {
       "id": 1,
       "memberId": 1,
-      "date": "1698748617993",
+      "createdAt": "1698748617993",
       "contents": "나 좀 칭찬해줘"
     },
     {
       "id": 2,
       "memberId": 2,
-      "date": "1698748617993",
+      "createdAt": "1698748617993",
       "contents": "나 진짜 힘드럿다,,, 요 며칠 동안 진짜 개고생햇다,, 근데 주서운 이야기: 이제 시작임\n\n이거 지인짜 마무리하고 나면 개뿌듯하긴 할 것 같은데 대체 언제 완성이 될 지 모르겠어서 너무 무섭다 으아아악 와중에 몸은 아프고 근데 몸 아픈데도 계속 머릿속에선 아 이 부분 이렇게 구조짜면 이쁘겠다 이러고 있으니 이게 바로 회광반조? 나 이제 갈 때가 됐다 보다....\n\n이거 마지막으로 테스트하면서 발견한 건데 왜 사진 넣으면 본문 드래그가 사라지는 거임??????????????? 뒤질래????????????? 아ㅋㅋ 진짜ㅋㅋ\n\n엥 아니네 이거 글로만 overflow 넘겨도 동작을 안 하네 와 방금 좀 소름돋았어; 공포영화가 따로없네\n\n아~ 잠시 소란이 있었어요~ 멍청한 김주현이 && 조건을 ||조건으로 썼었네요 하하! 미친놈"
+    },
+    {
+      "id": 3,
+      "memberId": 0,
+      "createdAt": 1702299727063,
+      "contents": "저 오늘 10시간 넘게 작업한 ㅋㅋ 도랏맨?"
+    },
+    {
+      "id": 4,
+      "memberId": 0,
+      "createdAt": 1702970604636,
+      "contents": "집중 안 되는데 일단 뭐라도 하려고 스터디 카페 왔음~~!"
+    },
+    {
+      "id": 5,
+      "memberId": 0,
+      "createdAt": 1703317693896,
+      "contents": "오늘은 TabComponent를 만들었어요. 짱이죠? Animation하고 Style에 대해서 생각해볼 수 있었다요"
     }
   ],
   "medias": [
     {
       "id": 0,
       "postId": 2,
-      "mediaUrl": "/tet.jpg",
+      "mediaUrl": "/tet.webp",
       "mediaType": "IMAGE"
     },
     {
       "id": 1,
       "postId": 2,
-      "mediaUrl": "/tet.jpg",
+      "mediaUrl": "/tet.webp",
       "mediaType": "IMAGE"
     },
     {
       "id": 2,
       "postId": 2,
-      "mediaUrl": "/tet.jpg",
+      "mediaUrl": "/tet.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "mediaUrl": "1.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 4,
+      "postId": 3,
+      "mediaUrl": "2.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 5,
+      "postId": 3,
+      "mediaUrl": "3.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 6,
+      "postId": 3,
+      "mediaUrl": "4.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 7,
+      "postId": 3,
+      "mediaUrl": "5.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 8,
+      "postId": 3,
+      "mediaUrl": "6.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 9,
+      "postId": 3,
+      "mediaUrl": "7.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 10,
+      "postId": 5,
+      "mediaUrl": "1.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 11,
+      "postId": 5,
+      "mediaUrl": "2.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 12,
+      "postId": 5,
+      "mediaUrl": "3.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 13,
+      "postId": 5,
+      "mediaUrl": "4.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 14,
+      "postId": 5,
+      "mediaUrl": "5.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 15,
+      "postId": 5,
+      "mediaUrl": "6.webp",
+      "mediaType": "IMAGE"
+    },
+    {
+      "id": 16,
+      "postId": 5,
+      "mediaUrl": "7.webp",
       "mediaType": "IMAGE"
     }
   ],
   "comments": [
     {
-      "id": 0,
-      "postId": 0,
-      "memberId": 1,
-      "createdAt": "1698748661320",
-      "contents": "돼지에서 벗어난 거 축하해~"
-    },
-    {
-      "id": 1,
-      "postId": 0,
-      "memberId": 2,
-      "createdAt": "1698748661335",
-      "contents": "그래 이제 좀 할 때 됐지 잘했어"
-    },
-    {
       "id": 2,
       "postId": 0,
       "memberId": 3,
+      "parentCommentId": null,
+      "replyCount": 0,
       "createdAt": "1698748661369",
       "contents": "내일 돌아올 것 같으면 개추~"
-    },
-    {
-      "id": 3,
-      "postId": 1,
-      "memberId": 4,
-      "createdAt": "1698748661320",
-      "contents": "칭찬에 목마른 당신 칭찬해~"
     },
     {
       "id": 4,
       "postId": 2,
       "memberId": 5,
+      "parentCommentId": null,
+      "replyCount": 0,
       "createdAt": "1698748661320",
       "contents": "Next time에는 더 fast하게 알아오길 바래요 I am 신뢰예요 (실제로 한 말)"
-    }
-  ],
-  "postLikes": [
+    },
+    {
+      "id": 5,
+      "postId": 0,
+      "memberId": 2,
+      "parentCommentId": 0,
+      "replyCount": 0,
+      "createdAt": "1698748661420",
+      "contents": "ㅋㅋ남 다르게 칭찬하는 너 칭찬해~"
+    },
+    {
+      "id": 12,
+      "postId": 0,
+      "memberId": 0,
+      "parentCommentId": 0,
+      "replyCount": 0,
+      "createdAt": 1702386291898,
+      "contents": "개열받는 칭찬 고마워!"
+    },
     {
       "id": 0,
       "postId": 0,
       "memberId": 1,
+      "parentCommentId": null,
+      "replyCount": 2,
+      "createdAt": "1698748661320",
+      "contents": "돼지에서 벗어난 거 축하해~"
+    },
+    {
+      "id": 6,
+      "postId": 1,
+      "memberId": 0,
+      "parentCommentId": null,
+      "replyCount": 0,
+      "createdAt": 1702386373462,
+      "contents": "어 그래 너가 최고야~!"
+    },
+    {
+      "id": 7,
+      "postId": 3,
+      "memberId": 0,
+      "parentCommentId": null,
+      "replyCount": 0,
+      "createdAt": 1702386386313,
+      "contents": "어 그래 내가 최고야~!"
+    },
+    {
+      "id": 8,
+      "postId": 0,
+      "memberId": 0,
+      "parentCommentId": null,
+      "replyCount": 0,
+      "createdAt": 1702386407056,
+      "contents": "다들 미친 칭찬 고마워!"
+    },
+    {
+      "id": 9,
+      "postId": 0,
+      "memberId": 0,
+      "parentCommentId": 1,
+      "replyCount": 0,
+      "createdAt": 1702386570967,
+      "contents": "?"
+    },
+    {
+      "id": 1,
+      "postId": 0,
+      "memberId": 2,
+      "parentCommentId": null,
+      "replyCount": 1,
+      "createdAt": "1698748661335",
+      "contents": "그래 이제 좀 할 때 됐지 잘했어"
+    },
+    {
+      "id": 11,
+      "postId": 0,
+      "memberId": 0,
+      "parentCommentId": 10,
+      "replyCount": 0,
+      "createdAt": 1703053976262,
+      "contents": "으으으음.."
+    },
+    {
+      "id": 10,
+      "postId": 0,
+      "memberId": 0,
+      "parentCommentId": null,
+      "replyCount": 1,
+      "createdAt": 1703053904058,
+      "contents": "으음.."
+    }
+  ],
+  "postLikes": [
+    {
+      "id": 2,
+      "postId": 1,
+      "memberId": 0,
       "likeType": "LIKE"
+    },
+    {
+      "id": 1,
+      "postId": 0,
+      "memberId": 0,
+      "likeType": "ANGEL_SMILE"
     }
   ],
   "commentLikes": [
@@ -175,6 +363,18 @@
       "id": 0,
       "commentId": 0,
       "memberId": 2,
+      "likeType": "LIKE"
+    },
+    {
+      "id": 2,
+      "commentId": 5,
+      "memberId": 0,
+      "likeType": "LIKE"
+    },
+    {
+      "id": 2,
+      "commentId": 0,
+      "memberId": 0,
       "likeType": "LIKE"
     }
   ]
