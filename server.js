@@ -22,7 +22,7 @@ server.use(
   cors({
     // origin: '*',
     // origin: ['http://localhost:5173', 'http://172.30.1.12:5173'],
-    origin: ['http://ec2-3-35-26-247.ap-northeast-2.compute.amazonaws.com:5173/'],
+    origin: ['http://ec2-3-35-26-247.ap-northeast-2.compute.amazonaws.com:5173'],
     credentials: true,
   })
 );
