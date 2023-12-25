@@ -38,7 +38,7 @@ export const getAuthRoute = (router) => {
       .cookie('COMP_SESSION_ID', newSessionId, {
         path: '/',
         maxAge: 3600000,
-        sameSite: false,
+        sameSite: "none",
         httpOnly: true,
       })
       .sendStatus(200);
